@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushering Department Payment System</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Toggle Button -->
+        <button id="toggleAdmin">Admin Login/Register</button>
+
+        <!-- Admin Login Form -->
+        <div id="adminSection" class="hidden">
+            <h2>Admin Login</h2>
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+            <button id="loginBtn">Login</button>
+        </div>
+
+        <!-- Admin Functions -->
+        <div id="adminFunctions" class="hidden">
+            <h2>Admin Functions</h2>
+            <button id="addMemberBtn">Add Member</button>
+            <div id="addMemberForm" class="hidden">
+                <h3>Add New Member</h3>
+                <input type="text" id="memberName" placeholder="Member Name" />
+                <input type="text" id="memberPhone" placeholder="Phone Number" />
+                <button id="submitMember">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
